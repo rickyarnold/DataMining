@@ -6,7 +6,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 
 # Load the dataset
-data_file = 'data_balita.csv'
+data_file = 'https://raw.githubusercontent.com/rickyarnold/DataMining/main/STKI-A11.2022.14010-UAS/data_balita.csv'
 data = pd.read_csv(data_file)
 
 # Display dataset info
